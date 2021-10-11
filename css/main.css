@@ -21,12 +21,12 @@
 .topnav {overflow:hidden;
    display: block;
         Background-color:rgb(37, 0, 245);
-        background-image: url("https://naresh-chandanbatve.github.io/Blog-site_Astro_Club/images/mast-back.gif");
+        background-image: url("images/mast-back.gif");
         background-repeat: no-repeat;
         background-size: cover;
         Height:30%;
         Z-index:1;
-        Box-shadow:0px 35px 30px 0Px rgba(0,0,0,90.2);
+        Box-shadow:0px 35px 30px 0Px rgba(0,0,0,90.2);v
        
         }
         
