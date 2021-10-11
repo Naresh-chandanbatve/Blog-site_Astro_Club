@@ -1,0 +1,276 @@
+<Style>
+  
+ Body {
+     Margin:0px;
+ } 
+
+
+ .backimg {
+    background-color: #ff0000;
+    background-image: url("C:/xampp/htdocs/blog/images/mast.gif"); 
+    background-repeat:no-repeat;
+    font-size: 60px;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    color: #ffffff;
+ }
+ 
+
+  
+.topnav {overflow:hidden;
+   display: block;
+        Background-color:rgb(37, 0, 245);
+        background-image: url("C:/xampp/htdocs/blog/images/mast-back.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        Height:30%;
+        Z-index:1;
+        Box-shadow:0px 35px 30px 0Px rgba(0,0,0,90.2);
+       
+        }
+        
+        
+.top1  {
+         Float:Left;
+         Color:#ffffff;
+         Text-align:Left;
+         Padding:60px 35px;
+         Font-size:90px;
+         font-family:'Brush Script MT', cursive;
+        Height:20%;
+        Width:40%;
+        }
+        
+      
+        
+.top2  {
+         Float:Right;
+         display: block;
+         Color:#ffffff;
+         Padding:90px 0px;
+         Font-size:60px;
+        Height:90px;
+        Width:280px;
+        display: flex;
+        justify-content: center;
+        border-left: 5px solid white;
+       
+        }
+        
+ 
+        
+    /*    
+      Dropdown Effect Start
+   
+    */
+        
+.dropdown  {
+         
+        }
+
+.dropdown-content {
+          Padding:60px 95px;
+          top:250px;
+          Float:Left;
+          Position:Absolute;
+          Right:15px;
+          Display:None;
+          Background-color:rgb(37, 0, 245);
+          background-image: url("C:/xampp/htdocs/blog/images/moon-back.jpg");
+          Font-size:70px;
+          Color:#000000;
+          Z-index:1;
+          box-shadow:30px 30px 35px 0px rgba(0,0,0,100.0);
+          background-repeat: no-repeat;
+          background-size: cover;
+          border-radius:100px;
+         }
+   
+
+
+.top2:hover .dropdown-content 
+        {     
+           Display:block;
+      
+         }
+         
+  
+  
+ 
+     
+      /* Dropdown Effect Ends  */   
+         
+         
+         
+         
+        
+   
+ .bar {
+     
+     Height:7px;
+     Width:80px;
+     Background-color:#ffffff;
+     Margin:20px 20px;
+     
+    }        
+         
+         
+         
+.footer {overflow:hidden;
+        Background-color:rgb(37, 0, 245);
+        background-image: url("C:/xampp/htdocs/blog/images/ok-footer.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 0px;
+        margin-right: opx;
+        margin-bottom: 0px;
+        Z-index:1;
+        Box-shadow:0px 35px 30px 0Px rgba(0,0,0,90.2);
+        }
+        
+      
+        
+   .currntposo {
+        Padding:30px 35px;
+        Height:70px;
+        Width:200px;
+        
+           }
+ 
+.currntposo:hover {
+       Background-color:rgb(37, 0, 245);
+          } 
+          
+ 
+.hr {
+    height:3px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+ /***** for mobile ****/
+@media(max-width : 1000px){
+  
+.topnav {overflow:hidden;
+        display: block;
+        Background-color:rgb(37, 0, 245);
+        background-image: url("hC:/xampp/htdocs/blog/images/mast-back.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        Height:14%;
+        Z-index:1;
+        Box-shadow:0px 35px 30px 0Px rgba(0,0,0,90.2);
+        
+        }
+}
+
+
+
+
+
+
+/***** for desktop view adding******/
+@media screen and (min-width:1000px) {
+     .home {
+         display: flex;
+         height:100%;
+         width:25%;
+        align-items: center;
+        justify-content: center;
+         float: right;
+     }
+     .about {
+        display: flex;
+        height:100%;
+        width:25%;
+       
+        float: right;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-c {
+        height: 96px;
+        width:900px;
+       font-size: 55px;
+       background-color: #000000;
+      color: #ffffff;
+      text-align: center;
+      border-radius: 200px;
+      padding:25px;
+      padding-top:40px;
+      margin-right: 25px;
+    }
+    .home-c {
+        height: 96px;
+        width:900px;
+       font-size: 60px;
+       background-color: #000000;
+      color: #ffffff;
+      text-align: center;
+      border-radius: 200px;
+      padding:25px;
+      padding-top:40px;
+      margin-right: 25px;
+   }
+
+
+
+   .home-c:hover {
+     background-color: #a00000;
+     font-size: 80px;
+     height:130px;
+     width:1000px;
+  }
+
+  .about-c:hover {
+    background-color: #a00000;
+    font-size: 80px;
+    height:130px;
+    width:1000px;
+ }
+
+
+}
+    
+
+
+/***** for desktop view removing******/
+@media screen and (min-width:1000px) {
+    .top2 {
+        Display: None;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/***** for mobile view adding******/
+  
+    
+
+
+/***** for mobile view removing******/
+@media screen and (max-width:1000px) {
+    .about-c {
+        Display: None;
+       
+   }
+   .home-c {
+       Display: None;
+     
+  }
+
+}
+
+
+</Style>
+
+
